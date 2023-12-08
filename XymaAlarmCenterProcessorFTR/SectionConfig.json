@@ -1,0 +1,20 @@
+﻿{
+	"id": "",
+	"name": "",
+	"mssgtypes": [
+		{
+			"id": "",
+			"name": "start"
+		},
+		{
+			"id": "",
+			"name": "process"
+		}
+	],
+	"recipientsNames": {
+		"process": "",
+		"clearConnections": "",
+		"removeConnection": "",
+	  "addConnection": ""
+	}
+}

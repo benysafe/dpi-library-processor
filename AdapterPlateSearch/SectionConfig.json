@@ -1,0 +1,29 @@
+﻿{
+	"id": "",
+	"name": "",
+	"mssgtypes": [
+		{
+			"id": ""
+		}
+	],
+	"toBillboard":{
+		"medio":{
+			"scale":1,
+			"image":[""],
+			"scaleByDistance":[50,1.5,10000000,0.2],
+			"altitude":0,
+			"horizontalOrigin":"RIGHT",
+			"verticalOrigin":"BOTTOM",
+			"intervalsOffSet":[10]
+		},
+		"groupBox":{
+			"scale":1,
+			"image":[""],
+			"scaleByDistance":[50,1.5,10000000,0.2],
+			"altitude":0,
+			"horizontalOrigin":"LEFT",
+			"verticalOrigin":"TOP",
+			"intervalsOffSet":[-1]
+		}
+	}
+}

@@ -1,0 +1,22 @@
+﻿{
+	"id": "",
+	"name": "",
+	"serverForWebClients": {
+		"host": "",
+		"port": ""
+	},
+	"mssgtypes": [
+		{
+			"id": "",
+			"name": "UpdateConnection"
+		},
+		{
+			"id": "",
+			"name": "RemoveUser"
+		}
+	],
+	"recipientsNames": {
+		"publish": "",
+		"clearConnections": ""
+	}
+}

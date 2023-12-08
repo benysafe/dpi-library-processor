@@ -1,0 +1,12 @@
+﻿{
+	"id": "",
+	"name": "",
+	"totp": {
+		"step": "", //ventana de tiempo en segundos//
+		"size": "" //cantidada de digitos[6-8]//
+	},
+	"serversBalancer": {
+		"host": "",
+		"port": ""
+	}
+}

@@ -1,0 +1,28 @@
+﻿{
+	"id": "",
+	"name": "",
+	"mssgtypes": [
+		{
+			"id": ""
+		}
+	],
+	"webService": [
+		{
+			"name": "login",
+			"uri": "http://{ServerIP}/XSVAccessEXT_Rest/api/login",
+			"parameters": {
+				"user": "",
+				"password": ""
+			}
+		},
+		{
+			"name": "sendAlarm",
+			"uri": "http://{ServerIP}/XSVAccessEXT_Rest/api/channels/alrm"
+		},
+		{
+			"name": "keepAlive",
+			"uri": "http://{ServerIP}/XSVAccessEXT_Rest/api/Keeplive"
+		}
+	],
+	"minutesTimer": ""
+}

@@ -1,0 +1,18 @@
+﻿{
+	"id": "",
+	"name": "",
+	"mssgtypes": [
+		{
+			"id": "",
+			"name": "mssgtype_1"
+		},
+		{
+			"id": "",
+			"name": "mssgtype_2"
+		}
+	],
+	"recipientsNames": {
+		"recipient_1": "",
+		"recipient_2": ""
+	}
+}

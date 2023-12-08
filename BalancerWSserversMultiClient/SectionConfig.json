@@ -1,0 +1,23 @@
+﻿{
+	"id": "",
+	"name": "",
+	"totp": {
+		"step": "", //ventana de tiempo en segundos//
+		"size": "" //cantidada de digitos[6-8]//
+	},
+	"serverForWebClients": {
+		"host": {
+			"enableDinamic": "false",
+			"ip": ""
+		},
+		"port": "",
+		"isSecure": "" //"true" o "false"//
+	},
+	"serverForWebPublishers": {
+		"host": {
+			"enableDinamic": "false",
+			"ip": ""
+		},
+		"port": ""
+	}
+}

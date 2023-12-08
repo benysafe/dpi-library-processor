@@ -1,0 +1,60 @@
+{
+    "data": {
+        "totalsRequest": 100,
+        "numberRequest": 4,
+        "entities": [
+            {
+                "id": 1,
+                "name": "test",
+                "intervalsOffsets": [
+                    10,
+                    5
+                ],
+                "commonGeometryProperties": {
+                    "billboard": {
+                        "show": [
+                            true
+                        ],
+                        "image": [
+                            "http://172.25.24.211:8001/bim/images/symbology/phisic/SRV/DETENIDO",
+                            "http://172.25.24.211:8001/bim/images/symbology/phisic/SRV/PERDIDO"
+                        ],
+                        "scale": [
+                            1
+                        ],
+                        "rotation": [
+                            0
+                        ],
+                        "scaleByDistance": [
+                            [
+                                50,
+                                1.5,
+                                10000000,
+                                0.2
+                            ]
+                        ]
+                    }
+                },
+                "instances": [
+                    {
+                        "properties": {
+                            "instanceId": "1",
+                            "adquireAt": "2022-12-06T00:01:40.330Z"
+                        },
+                        "position": {
+                            "latitude": -81.540515,
+                            "longitude": 23.063612,
+                            "altitude": 0
+                        },
+                        "currentGeometryProperties": {
+                            "billboard": {}
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "metadata": {
+        "adquireAt": "2022-12-06T00:01:40.330Z"
+    }
+}

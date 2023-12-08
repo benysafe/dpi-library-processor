@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\Release\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Definitions">
+      <HintPath>..\..\Release\net6.0\Definitions.dll</HintPath>
+    </Reference>
+    <Reference Include="InterfaceLibraryConfigurator">
+      <HintPath>..\..\Release\net6.0\InterfaceLibraryConfigurator.dll</HintPath>
+    </Reference>
+    <Reference Include="InterfaceLibraryLogger">
+      <HintPath>..\..\Release\net6.0\InterfaceLibraryLogger.dll</HintPath>
+    </Reference>
+    <Reference Include="InterfaceLibraryProcessor">
+      <HintPath>..\..\Release\net6.0\InterfaceLibraryProcessor.dll</HintPath>
+    </Reference>
+    <Reference Include="InterfaceLibrarySerializer">
+      <HintPath>..\..\Release\net6.0\InterfaceLibrarySerializer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

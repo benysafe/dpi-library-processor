@@ -1,0 +1,23 @@
+﻿{
+	"id": "",
+	"name": "",
+	"totp": {
+		"step": "",
+		"size": ""
+	},
+	"serverForWebPublishers": {
+		"host": "",
+		"port": ""
+	},
+	"serverForWebClients": {
+		"host": "",
+		"port": "",
+		"isSecure": "" //"true" o "false"//
+	},
+	"mssgtypes": [
+		{
+			"id": "",
+			"name": ""
+		}
+	]
+}
