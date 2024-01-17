@@ -104,7 +104,7 @@ namespace EventXAREvaluator
             {
                 _logger.Trace("Inicio");
 
-                if (_configurator.hasNewConfig())
+                if (_configurator.hasNewConfig(_id))
                 {
                     reConfig();
                     _logger.Debug("Reconfiguracion exitosa");
@@ -624,6 +624,7 @@ namespace EventXAREvaluator
                 List<Dictionary<string, object>> MssgsTypes = System.Text.Json.JsonSerializer.Deserialize<List<Dictionary<string, object>>>(value.ToString());
 
                 int index = 0;
+                this._mssgTypes.Clear();
                 foreach (Dictionary<string, object> keyValuePairs in MssgsTypes)
                 {
                     object valueId;
