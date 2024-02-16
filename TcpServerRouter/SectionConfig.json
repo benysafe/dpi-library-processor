@@ -1,0 +1,18 @@
+﻿{
+	"id": "",
+	"name": "",
+	"mssgtypes": [
+		{
+			"id": "",
+			"name": ""
+		}
+	],
+	"routingToDevice": [
+		{
+			"": "" // "devide_id": "ip"
+		}	
+	]
+	"serverIp": "",
+	"serverPort": "",
+	"prefixRecipent": ""
+}

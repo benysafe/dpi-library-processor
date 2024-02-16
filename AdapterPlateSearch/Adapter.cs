@@ -310,7 +310,7 @@ namespace AdapterPlateSearch
         {
             try
             {
-                if (_configurator.reLoad())
+                if (_configurator.hasNewConfig(_id))
                 {
                     mut.WaitOne();
                     getConfig();

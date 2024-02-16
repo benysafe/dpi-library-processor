@@ -107,11 +107,6 @@ namespace CzmlBuilder
             {
                 _logger.Trace("Inicio");
 
-                if (_configurator.hasNewConfig())
-                {
-                    reConfig();
-                }
-
                 Dictionary<string, object> dPayLoad =(Dictionary<string, object>)payload;
                 object value;
 
